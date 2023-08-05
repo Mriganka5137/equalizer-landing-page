@@ -35,3 +35,19 @@ html {
   top: 65rem;
   left: 26.7rem;
 }
+
+@media screen and (max-width: 76.8rem) {
+  .container {
+    max-width: 76.8rem;
+    background-image: url(./assets/bg-main-tablet.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 0 3.9rem;
+    padding-bottom: 8.5rem;
+  }
+  .mobile {
+    width: 27.2rem;
+    top: 63rem;
+    left: 9.7rem;
+  }
+}

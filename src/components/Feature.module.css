@@ -21,3 +21,9 @@
   top: -4rem;
   left: 33.6rem;
 }
+
+@media screen and (max-width: 76.8rem) {
+  .feature_container {
+    margin-bottom: 18rem;
+  }
+}

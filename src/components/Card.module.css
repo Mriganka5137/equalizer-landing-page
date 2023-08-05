@@ -91,3 +91,40 @@
 .icon {
   margin-right: 0.7rem;
 }
+
+@media screen and (max-width: 76.8rem) {
+  .card {
+    width: 39rem;
+    top: 92rem;
+    right: 9.7rem;
+  }
+
+  .heading {
+    font-size: 3.2rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 4rem;
+    margin-bottom: 1.2rem;
+  }
+
+  .description {
+    font-size: 1.8rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 2.8rem; /* 155.556% */
+    margin-bottom: 3.6rem;
+  }
+
+  .apple {
+    padding: 1.5rem 7.7rem;
+    line-height: 32px;
+    letter-spacing: -0.18px;
+    width: 29.6rem;
+  }
+  .android {
+    line-height: 32px;
+    letter-spacing: -0.18px;
+    padding: 1.5rem 5.9rem;
+    width: 29.6rem;
+  }
+}

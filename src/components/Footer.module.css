@@ -23,7 +23,7 @@
   /* flex-basis: 50%;
    */
   gap: 13.7rem;
-  justify-content: space-between;
+  /* justify-content: space-between; */
 }
 
 .copyright_container p {
@@ -45,6 +45,16 @@
   /* filter: invert(0); */
 }
 
-.icon:hover {
+/* .icon:hover {
   /* filter: invert(100); */
+
+@media screen and (max-width: 76.8rem) {
+  .copyright_container {
+    flex-direction: column;
+    gap: 3.2rem;
+  }
+
+  .footer_container {
+    align-items: end;
+  }
 }
