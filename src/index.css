@@ -20,7 +20,18 @@ html {
 
 .container {
   max-width: 144rem;
-  /* background-color: var(--color-light-blue); */
   margin: 0 auto;
   padding: 0 16.5rem;
+  background-image: url("./assets/bg-main-desktop.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+  padding-bottom: 9rem;
+}
+
+.mobile {
+  position: absolute;
+  width: 31.2rem;
+  top: 65rem;
+  left: 26.7rem;
 }
