@@ -3,6 +3,7 @@ import logo from "../assets/logo.svg";
 import facebook from "../assets/icon-facebook.svg";
 import instagram from "../assets/icon-instagram.svg";
 import twitter from "../assets/icon-twitter.svg";
+
 function Footer() {
   return (
     <footer className={styles.footer_container}>
@@ -15,9 +16,9 @@ function Footer() {
         </p>
       </div>
       <div className={styles.socials_container}>
-        <img src={facebook} alt="facebook" />
-        <img src={instagram} alt="instagram" />
-        <img src={twitter} alt="twitter" />
+        <img src={facebook} alt="facebook" className={styles.icon} />
+        <img src={instagram} alt="instagram" className={styles.icon} />
+        <img src={twitter} alt="twitter" className={styles.icon} />
       </div>
     </footer>
   );

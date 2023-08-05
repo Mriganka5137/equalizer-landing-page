@@ -1,0 +1,93 @@
+:root {
+  --color-light-blue: #66e2dc;
+  --color-orange: #fa7453;
+  --color-yellow: #ffb964;
+  --color-white: #fcfaf9;
+  --color-black: #191826;
+}
+
+.card {
+  position: absolute;
+  width: 44.6rem;
+  background-color: var(--color-orange);
+  padding: 5.8rem 5.9rem 4.8rem 5.4rem;
+  border-radius: 1.2rem;
+  top: 95rem;
+  right: 26rem;
+}
+.heading {
+  color: var(--color-white);
+  font-size: 4rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 5.2rem;
+  margin-bottom: 2.2rem;
+}
+
+.description {
+  color: var(--color-white);
+
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 3.4rem; /* 170% */
+  margin-bottom: 4rem;
+}
+
+.price {
+  color: #fcfaf9;
+
+  font-size: 6.5rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 5.2rem; /* 80% */
+  margin-right: 1.6rem;
+}
+
+.price_month {
+  color: #fcfaf9;
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 3.2rem; /* 160% */
+  letter-spacing: -0.2px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 4.6rem;
+}
+
+.btn {
+  font-size: 1.8rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 3.2rem; /* 177.778% */
+  letter-spacing: -0.18px;
+  border-radius: 1.2rem;
+  margin-top: 1.6rem;
+}
+
+.apple {
+  color: var(--color-white);
+  padding: 1.5rem 9.5rem;
+  background-color: var(--color-black);
+  cursor: pointer;
+  transition: all 500ms ease-out;
+}
+
+.apple:hover {
+  background-color: var(--color-light-blue);
+}
+
+.android {
+  color: var(--color-black);
+  padding: 1.5rem 7.7rem;
+  background-color: var(--color-white);
+  cursor: pointer;
+  transition: all 500ms ease-out;
+}
+.android:hover {
+  background-color: var(--color-yellow);
+}
+
+.icon {
+  margin-right: 0.7rem;
+}

@@ -11,7 +11,6 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 9rem;
 }
 
 .logo {
@@ -38,6 +37,14 @@
   justify-content: space-between;
   width: 10rem;
 }
-.socials_container img {
+.icon {
   height: 2rem;
+  cursor: pointer;
+  /* Replace with your desired default color */
+  transition: filter 0.3s;
+  /* filter: invert(0); */
+}
+
+.icon:hover {
+  /* filter: invert(100); */
 }
