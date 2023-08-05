@@ -66,12 +66,12 @@ html {
     top: -3.2rem;
   }
 }
-@media screen and (max-width: 42.5rem) {
+@media screen and (max-width: 37.5rem) {
   .container {
     max-width: 37.5rem;
     background-image: url(./assets/bg-main-mobile.png);
     background-repeat: no-repeat;
-    background-position: top;
+    background-position: top left;
     padding: 0;
     padding-bottom: 8rem;
   }
