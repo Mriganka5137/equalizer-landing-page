@@ -6,6 +6,10 @@
   --color-black: #191826;
 }
 
+.header {
+  margin-bottom: 32rem;
+}
+
 .primary_heading {
   font-size: 8.8rem;
   color: var(--color-black);

@@ -1,11 +1,13 @@
 import "./App.css";
-import Main from "./components/Main";
+import Feature from "./components/Feature";
+import Header from "./components/Header";
 
 function App() {
   return (
-    <>
-      <Main />
-    </>
+    <main className="container">
+      <Header />
+      <Feature />
+    </main>
   );
 }
 
