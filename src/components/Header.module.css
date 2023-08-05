@@ -58,3 +58,26 @@
     margin-bottom: 25rem;
   }
 }
+@media screen and (max-width: 42.8rem) {
+  .primary_heading {
+    font-size: 4rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 4.8rem; /* 120% */
+    letter-spacing: -0.455px;
+    margin-top: 6.4rem;
+    max-width: 32.7rem;
+  }
+
+  .description {
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 2.6rem;
+    max-width: 32.7rem;
+    margin-top: 2rem;
+  }
+  .header {
+    margin-bottom: 16.6rem;
+  }
+}

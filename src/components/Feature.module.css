@@ -26,4 +26,11 @@
   .feature_container {
     margin-bottom: 18rem;
   }
+
+  .pattern2 {
+    position: absolute;
+    width: 31.2rem;
+    top: -3.1rem;
+    left: 23rem;
+  }
 }
