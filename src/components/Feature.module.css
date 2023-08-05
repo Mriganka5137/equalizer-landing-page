@@ -6,10 +6,7 @@
   --color-black: #191826;
 }
 
-.container {
-  max-width: 144rem;
-  height: 183rem;
-  /* background-color: var(--color-light-blue); */
-  margin: 0 auto;
-  padding: 0 16.5rem;
+.feature_container {
+  width: 100%;
+  background-color: var(--color-black);
 }
